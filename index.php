@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang='fr'>
 	<head>
-        <title>PHP ex2.5 condition</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>PHP ex 2.5 condition</title>
     </head>
     <body >
         <?php
-        $gender="Home";
-        if( $gender != "Home")
+        $gender='Home';
+        if( $gender != 'Home')
         {
-            echo ("C'est une développeuse !!!");
+            echo ('C\'est une développeuse !!!');
         }
         else
         {
-            echo ("C'est un développeur !!!");
+            echo ('C\'est un développeur !!!');
         }
        ?>
     </body>
